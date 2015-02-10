@@ -269,5 +269,5 @@ module.exports = function(grunt) {
 
     grunt.registerTask('unittest', ['jshint', 'mochacli']);
 
-    grunt.registerTask('server', ['compile', 'nodemon:dev']);
+    grunt.registerTask('server', ['nodemon:dev']);
 };
